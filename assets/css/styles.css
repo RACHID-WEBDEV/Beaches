@@ -197,7 +197,6 @@ input {
   left: 0;
   z-index: var(--z-fixed);
   background-color: transparent;
-  padding: 10px 0px;
 }
 
 /*=============== NAV ===============*/
@@ -227,6 +226,15 @@ input {
 }
 
 @media screen and (max-width: 767px) {
+  .header {
+    padding: 6px 0px;
+  }
+  .home__data {
+    margin-top: 6rem !important;
+  }
+  .home__info {
+    margin-bottom: 2rem;
+  }
   .nav__menu {
     position: fixed;
     background-color: var(--body-color);
@@ -313,6 +321,9 @@ input {
   height: calc(100vh - var(--header-height));
   align-content: center;
   row-gap: 3rem;
+}
+.home__data {
+  margin-top: 10rem;
 }
 
 .home__data-subtitle,
